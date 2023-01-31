@@ -9,4 +9,4 @@ jobs:
   dummy_test:
     runs-on: ubuntu-latest
     steps:
-      - run: return $(( $RANDOM % 2 )) 
+      - run: exit $(( $RANDOM % 2 )) 
