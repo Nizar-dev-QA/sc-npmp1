@@ -9,4 +9,4 @@ jobs:
   dummy_test:
     runs-on: ubuntu-latest
     steps:
-      - run: echo 'Make renovate automerge excuted'
+      - run: return $(( $RANDOM % 2 )) 
